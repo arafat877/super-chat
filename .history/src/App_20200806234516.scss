@@ -1,0 +1,145 @@
+.appContainer {
+  background-color: #b7e3fe;
+
+  .appWrapper {
+    background-color: #3576ef;
+    border-radius: 10px;
+
+    .firstCol {
+      .logoRow {
+        height: 15%;
+
+        .logo {
+          font-size: 50px;
+          color: rgb(226, 192, 236);
+        }
+      }
+      .menuRow {
+        height: 70%;
+
+        .menuList {
+          list-style: none;
+
+          .menuItem {
+            margin-bottom: 20px;
+
+            .menuItemIcon {
+              font-size: 30px;
+              color: white;
+            }
+          }
+        }
+      }
+      .photoRow {
+        height: 15%;
+
+        .profilePhoto {
+          height: 40px;
+          width: 40px;
+          border: solid thin white;
+          border-radius: 50%;
+          object-fit: cover;
+        }
+      }
+    }
+
+    .secondCol {
+      background-color: #f9f9f9;
+      overflow-y: auto;
+
+      .searchRow {
+        height: 7.5%;
+
+        .searchInput {
+          width: 100%;
+          border: solid 0.5px;
+          background-color: white;
+          border-radius: 5px;
+
+          &:focus {
+            outline: none;
+          }
+        }
+      }
+      .convRow {
+        height: 7.5%;
+
+        .convSpan {
+          font-weight: 500;
+          font-size: 20px;
+          color: rgb(214, 120, 243);
+        }
+      }
+      .selectRow {
+        height: 5%;
+
+        .selectionList {
+          list-style: none;
+
+          .selectionListItem {
+            font-weight: 500;
+            font-size: 13px;
+            color: #3576ef;
+          }
+        }
+      }
+      .groupsRow {
+        height: 80%;
+
+        .convCard {
+            margin-bottom: -1;
+          .userProfilePicture {
+            height: 30px;
+            width: 30px;
+            border-radius: 50%;
+            object-fit: cover;
+          }
+
+          .userName {
+            // color: white;
+          }
+
+          .dash {
+            color: rgb(214, 120, 243);
+            font-size: 20px;
+          }
+
+          .chatDate {
+            // color: white;
+            font-size: 13px;
+            font-weight: 300;
+          }
+
+          .hr {
+            border-color:  rgb(214, 120, 243);
+            margin-bottom: 5px;
+          }
+
+          .text {
+            // color: white;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+
+    .thirdCol {
+      .chatInfo {
+        height: 11.25%;
+      }
+      .chatMessages {
+        height: 73.75%;
+      }
+      .chatInput {
+        height: 15%;
+
+        .inputEmoji {
+          height: 30%;
+        }
+        .inputText {
+          height: 70%;
+        }
+      }
+    }
+  }
+}

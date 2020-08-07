@@ -1,0 +1,8 @@
+:root {
+    --main-bg-light: rgb(186, 228, 248);
+  }
+
+.appContainer{
+    height: 100vh;
+    background-color: var(--main-bg-light);
+}

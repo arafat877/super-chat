@@ -1,0 +1,243 @@
+.appContainer {
+  background-color: #b7e3fe;
+
+  .appWrapper {
+    background-color: #3576ef;
+    border-radius: 10px;
+
+    .firstCol {
+      .logoRow {
+        height: 15%;
+
+        .logo {
+          font-size: 50px;
+          color: rgb(226, 192, 236);
+        }
+      }
+      .menuRow {
+        height: 70%;
+
+        .menuList {
+          list-style: none;
+
+          .menuItem {
+            margin-bottom: 20px;
+
+            .menuItemIcon {
+              font-size: 30px;
+              color: white;
+            }
+          }
+        }
+      }
+      .photoRow {
+        height: 15%;
+
+        .profilePhoto {
+          height: 40px;
+          width: 40px;
+          border: solid thin white;
+          border-radius: 50%;
+          object-fit: cover;
+        }
+      }
+    }
+
+    .secondCol {
+      background-color: #f9f9f9;
+
+      .searchRow {
+        height: 7.5%;
+
+        .searchInput {
+          width: 100%;
+          border: solid 0.5px;
+          background-color: white;
+          border-radius: 5px;
+
+          &:focus {
+            outline: none;
+          }
+        }
+      }
+
+      .convRow {
+        height: 7.5%;
+
+        .convSpan {
+          font-weight: 500;
+          font-size: 20px;
+          color: rgb(214, 120, 243);
+        }
+      }
+      .selectRow {
+        height: 5%;
+
+        .selectionList {
+          list-style: none;
+
+          .selectionListItem {
+            font-weight: 500;
+            font-size: 13px;
+            color: #3576ef;
+          }
+        }
+      }
+
+      ::-webkit-scrollbar {
+        width: 5px;
+        height: 5px;
+      }
+
+      ::-webkit-scrollbar-track {
+        background: white; /* color of the tracking area */
+      }
+
+      ::-webkit-scrollbar-thumb {
+        background-color: #b5caf0; /* color of the scroll thumb */
+        border-radius: 5px; /* roundness of the scroll thumb */
+      }
+
+      .groupsRow {
+        height: 80%;
+        overflow-y: scroll;
+
+        .convCard {
+          background-color: white;
+          border: solid 0.5px #dee2e6;
+          border-radius: 10px;
+          margin-right: 0;
+
+          .userProfilePicture {
+            height: 30px;
+            width: 30px;
+            border-radius: 50%;
+            object-fit: cover;
+          }
+
+          .userName {
+            // color: white;
+          }
+
+          .dash {
+            color: rgb(214, 120, 243);
+          }
+
+          .chatDate {
+            // color: white;
+            font-size: 13px;
+            font-weight: 300;
+          }
+
+          .text {
+            // color: white;
+            font-size: 14px;
+          }
+        }
+
+        .convCardHot {
+          background-color: #3576ef;
+          border-radius: 10px;
+          margin-right: 0;
+
+          .userProfilePicture {
+            height: 30px;
+            width: 30px;
+            border-radius: 50%;
+            object-fit: cover;
+          }
+
+          .userName {
+            color: white;
+          }
+
+          .dash {
+            color: rgb(214, 120, 243);
+          }
+
+          .chatDate {
+            color: white;
+            font-size: 13px;
+            font-weight: 300;
+          }
+
+          .hr {
+            border-color: rgb(214, 120, 243);
+            margin-bottom: 5px;
+          }
+
+          .text {
+            color: white;
+            font-size: 14px;
+          }
+        }
+
+        .convCardGroup {
+          background-color: rgb(214, 120, 243);
+          border-radius: 10px;
+          margin-right: 0;
+
+          .userProfilePicture {
+            height: 30px;
+            width: 30px;
+            border-radius: 50%;
+            object-fit: cover;
+          }
+
+          .userName {
+            color: white;
+          }
+
+          .dash {
+            color: white;
+          }
+
+          .chatDate {
+            color: white;
+            font-size: 13px;
+            font-weight: 300;
+          }
+
+          .hr {
+            border-color: rgb(214, 120, 243);
+            margin-bottom: 5px;
+          }
+
+          .text {
+            color: white;
+            font-size: 14px;
+          }
+
+          .avatar {
+            height: 30px;
+            width: 30px;
+          }
+        }
+      }
+    }
+
+    .thirdCol {
+      background-color: #f9f9f9;
+      border-left: solid thin #dee2e6;
+
+      .chatInfo {
+        height: 11.25%;
+        border-bottom: solid thin #dee2e6;
+      }
+      .chatMessages {
+        height: 73.75%;
+        border-left: solid thin #dee2e6;
+      }
+      .chatInput {
+        height: 15%;
+
+        .inputEmoji {
+          height: 30%;
+        }
+        .inputText {
+          height: 70%;
+        }
+      }
+    }
+  }
+}

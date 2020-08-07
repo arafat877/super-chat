@@ -1,0 +1,35 @@
+.appContainer {
+  background-color: #b7e3fe;
+
+  .appWrapper {
+    background-color: #3576ef;
+    border-radius: 10px;
+
+    .firstCol {
+      .logoRow {
+        height: 15%;
+      }
+      .menuRow {
+        height: 70%;
+      }
+      .photoRow {
+        height: 15%;
+      }
+    }
+
+    .secondCol {
+      .searchRow {
+        height: 10%;
+      }
+      .convRow {
+        height: 10%;
+      }
+      .selectRow {
+        height: 10%;
+      }
+      .groupsRow {
+        height: 70%;
+      }
+    }
+  }
+}

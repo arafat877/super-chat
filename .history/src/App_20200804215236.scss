@@ -1,0 +1,36 @@
+:root {
+  --main-bg-light: rgb(186, 228, 248);
+  --main-bg-dark: rgb(32, 55, 66);
+  --main-bg-hot: rgb(204, 98, 79);
+  --main-bg-sweet: rgb(198, 255, 164);
+
+  --wrapper-bg-light: rgb(0, 148, 216);
+}
+
+.appContainer {
+  height: 100vh;
+  background-color: var(--main-bg-light);
+  display: flex;
+
+  .appWrapper {
+    height: 90vh;
+    width: 80vw;
+    background-color: var(--wrapper-bg-light);
+    border-radius: 6px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr); 
+
+    .mainColumn {
+      border-right: solid thin var(--main-bg-light);
+      grid-column-start: 1;
+      grid-column-end: 2;
+    }
+
+    .conversationsColumn {
+      border-right: solid thin var(--main-bg-light);
+      grid-column-start: 2;
+      grid-column-end: 5;
+    }
+  }
+}

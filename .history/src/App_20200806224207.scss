@@ -1,0 +1,80 @@
+.appContainer {
+  background-color: #b7e3fe;
+
+  .appWrapper {
+    background-color: #3576ef;
+    border-radius: 10px;
+
+    .firstCol {
+      .logoRow {
+        height: 15%;
+
+        .logo {
+          font-size: 50px;
+          color: rgb(226, 192, 236);
+        }
+      }
+      .menuRow {
+        height: 70%;
+
+        .menuList {
+          list-style: none;
+          
+
+          .menuItem {
+            margin-bottom: 20px;
+
+            .menuItemIcon {
+              font-size: 30px;
+              color: white;
+            }
+          }
+        }
+      }
+      .photoRow {
+        height: 15%;
+
+        .profilePhoto{
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+      }
+    }
+
+    .secondCol {
+      .searchRow {
+        height: 7.5%;
+      }
+      .convRow {
+        height: 7.5%;
+      }
+      .selectRow {
+        height: 5%;
+      }
+      .groupsRow {
+        height: 80%;
+      }
+    }
+
+    .thirdCol {
+      .chatInfo {
+        height: 11.25%;
+      }
+      .chatMessages {
+        height: 73.75%;
+      }
+      .chatInput {
+        height: 15%;
+
+        .inputEmoji {
+          height: 30%;
+        }
+        .inputText {
+          height: 70%;
+        }
+      }
+    }
+  }
+}

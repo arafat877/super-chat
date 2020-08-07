@@ -1,0 +1,169 @@
+:root {
+  --main-bg-light: rgb(186, 228, 248);
+  --main-bg-dark: rgb(32, 55, 66);
+  --main-bg-hot: rgb(204, 98, 79);
+  --main-bg-sweet: rgb(198, 255, 164);
+
+  --wrapper-bg-light: rgb(0, 148, 216);
+}
+
+.appContainer {
+  height: 100vh;
+  background-color: var(--main-bg-light);
+  display: flex;
+
+  .appWrapper {
+    height: 90vh;
+    width: 80vw;
+    background-color: var(--wrapper-bg-light);
+    border-radius: 6px;
+    border: solid thick var(--wrapper-bg-light);
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+
+    .mainColumn {
+      border-right: solid thin var(--main-bg-light);
+      grid-column-start: 1;
+      grid-column-end: 2;
+      display: grid;
+      grid-template-rows: repeat(12, 1fr);
+      text-align: center;
+
+      .mcLogo {
+        grid-row-start: 1;
+        grid-row-end: 3;
+
+        .logo {
+          height: 50px;
+          width: 50px;
+          margin-top: 10px;
+          color: white;
+        }
+      }
+
+      .mcList {
+        grid-row-start: 3;
+        grid-row-end: 11;
+        display: flex;
+
+        .mainList {
+          list-style: none;
+          margin: auto;
+          padding: 0px;
+
+          .mainListItem {
+            color: white;
+
+            .listItemIcon{
+              height: 50px;
+            }
+          }
+        }
+      }
+
+      .mcPhoto {
+        grid-row-start: 11;
+        grid-row-end: 13;
+        margin: auto;
+
+        .profilePicture{
+          height: 50px;
+          width: 50px;
+          border-radius: 50%;
+          object-fit: cover;
+        }
+      }
+    }
+
+    .conversationsColumn {
+      border-right: solid thin var(--main-bg-light);
+      grid-column-start: 2;
+      grid-column-end: 5;
+      display: grid;
+      grid-template-rows: repeat(12, 1fr);
+      background-color: rgb(186, 228, 248);
+
+      .ccSearch {
+        border: solid thin var(--main-bg-light); //temporary
+        grid-row-start: 1;
+        grid-row-end: 2;
+        text-align: center;
+        display: flex;
+
+        .searchInput{
+          margin: auto;
+          border: none;
+          width: 90%;
+          height: 80%;
+          border-radius: 10px;
+        }
+      }
+
+      .ccTitle {
+        border: solid thin var(--main-bg-light); //temporary
+        grid-row-start: 2;
+        grid-row-end: 3;
+      }
+
+      .ccSelection {
+        border: solid thin var(--main-bg-light); //temporary
+        grid-row-start: 3;
+        grid-row-end: 4;
+      }
+      .ccAllChat {
+        border: solid thin var(--main-bg-light); //temporary
+        grid-row-start: 4;
+        grid-row-end: 13;
+      }
+    }
+    .messagesColumn {
+      grid-column-start: 5;
+      grid-column-end: 13;
+      display: grid;
+      grid-template-rows: repeat(12, 1fr);
+
+      .mecInfo {
+        grid-row-start: 1;
+        grid-row-end: 2;
+      }
+      .mecWindow {
+        border: solid thin var(--main-bg-light); //temporary
+        grid-row-start: 2;
+        grid-row-end: 11;
+      }
+      .mecInput {
+        border: solid thin var(--main-bg-light); //temporary
+        grid-row-start: 11;
+        grid-row-end: 13;
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+
+        .inputColumn {
+          border: solid thin var(--main-bg-light); //temporary
+          grid-column-start: 1;
+          grid-column-end: 10;
+          display: grid;
+          grid-template-rows: repeat(12, 1fr);
+
+          .inputSelection {
+            border: solid thin var(--main-bg-light); //temporary
+            grid-row-start: 1;
+            grid-row-end: 4;
+          }
+          .inputArea {
+            border: solid thin var(--main-bg-light); //temporary
+            grid-row-start: 4;
+            grid-row-end: 13;
+          }
+        }
+
+        .inputSend {
+          border: solid thin var(--main-bg-light); //temporary
+          grid-column-start: 10;
+          grid-column-end: 13;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+.appContainer {
+  background: url("../../assets/chat.jpeg");
+  background-size: cover;
+  z-index: -1;
+  :before{
+
+      opacity: 0.5;
+  }
+
+  .appWrapper {
+      background-color: white;
+    height: 70%;
+    width: 30%;
+  }
+}

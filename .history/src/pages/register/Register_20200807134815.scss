@@ -1,0 +1,11 @@
+.appContainer {
+  background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("../../assets/chat.jpeg");
+  background-size: cover;
+  
+
+  .appWrapper {
+      background-color: white;
+    height: 70%;
+    width: 30%;
+  }
+}

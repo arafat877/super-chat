@@ -1,0 +1,130 @@
+.thirdCol {
+    background-color: #f9f9f9;
+    border-left: solid thin #dee2e6;
+
+    .chatInfo {
+      height: 11.25%;
+      border-bottom: solid thin #dee2e6;
+
+      .infoUserPicture {
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+
+      .infoUserName {
+        color: #3576ef;
+        font-weight: 700;
+      }
+
+      .infoTyping {
+        font-size: 14px;
+        font-weight: 300;
+      }
+
+      .infoGroup {
+        .avatar {
+          height: 25px;
+          width: 25px;
+        }
+      }
+    }
+    .chatMessages {
+      height: 73.75%;
+      border-bottom: solid thin #dee2e6;
+      overflow-y: auto;
+
+      .loading{
+        cursor: pointer;
+      }
+
+      .messageRow {
+        .messageUserProfilePicture {
+          height: 15px;
+          width: 15px;
+          border-radius: 50%;
+          object-fit: cover;
+        }
+
+        .groupUsername{
+          color: #3576ef;
+          font-weight: 500;
+          font-size: 12px;
+        }
+
+        .text {
+          background-color: #f0f0f0;
+          font-size: 15px;
+          border-radius: 0px 20px 20px 20px;
+        }
+
+        .deletedMessage{
+          color:rgb(199, 193, 193)
+        }
+      }
+
+      .messageRowOwner {
+        .messageUserProfilePicture {
+          height: 15px;
+          width: 15px;
+          border-radius: 50%;
+          object-fit: cover;
+        }
+
+        .text {
+          background-color: #3576ef;
+          font-size: 15px;
+          color: white;
+          border-radius: 20px 20px 0px 20px;
+        }
+      }
+    }
+    .chatInput {
+      height: 15%;
+
+      .inputEmoji {
+        height: 30%;
+
+        .emojiList {
+          list-style: none;
+
+          .emojiListItem {
+            .emojiListItemIcon {
+              color: #bebcbc;
+              font-size: 16px;
+            }
+          }
+        }
+      }
+      .inputText {
+        height: 70%;
+
+        .input {
+          border: none;
+          width: 100%;
+
+          &::-webkit-input-placeholder {
+            /* WebKit browsers */
+            color: #bebcbc;
+          }
+          &:-moz-placeholder {
+            /* Mozilla Firefox 4 to 18 */
+            color: #bebcbc;
+          }
+          &::-moz-placeholder {
+            /* Mozilla Firefox 19+ */
+            color: #bebcbc;
+          }
+          &:-ms-input-placeholder {
+            /* Internet Explorer 10+ */
+            color: #bebcbc;
+          }
+
+          &:focus {
+            outline: none;
+          }
+        }
+      }
+    }
+  }

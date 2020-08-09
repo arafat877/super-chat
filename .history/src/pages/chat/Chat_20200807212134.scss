@@ -1,0 +1,22 @@
+.appContainer {
+  background-color: #b7e3fe;
+
+  ::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: white; /* color of the tracking area */
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #b5caf0; /* color of the scroll thumb */
+    border-radius: 5px; /* roundness of the scroll thumb */
+  }
+
+  .appWrapper {
+    background-color: #3576ef;
+    border-radius: 10px;
+  }
+}

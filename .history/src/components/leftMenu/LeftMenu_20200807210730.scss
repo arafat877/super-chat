@@ -1,0 +1,37 @@
+.firstCol {
+    .logoRow {
+      height: 15%;
+
+      .logo {
+        font-size: 50px;
+        color: rgb(226, 192, 236);
+      }
+    }
+    .menuRow {
+      height: 70%;
+
+      .menuList {
+        list-style: none;
+
+        .menuItem {
+          margin-bottom: 20px;
+
+          .menuItemIcon {
+            font-size: 30px;
+            color: white;
+          }
+        }
+      }
+    }
+    .photoRow {
+      height: 15%;
+
+      .profilePhoto {
+        height: 40px;
+        width: 40px;
+        border: solid thin white;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+    }
+  }

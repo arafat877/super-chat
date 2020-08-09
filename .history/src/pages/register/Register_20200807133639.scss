@@ -1,0 +1,11 @@
+.appContainer {
+  background: url("../../assets/chat.jpeg") rgba(0, 0, 0, 0.6);
+  background-size: cover;
+  opacity: 0.5;
+
+  .appWrapper {
+      background-color: white;
+    height: 70%;
+    width: 30%;
+  }
+}

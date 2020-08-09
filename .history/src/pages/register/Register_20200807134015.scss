@@ -1,0 +1,10 @@
+.appContainer {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(100%, transparent)), url("../../assets/chat.jpeg");
+  background-size: cover;
+
+  .appWrapper {
+      background-color: white;
+    height: 70%;
+    width: 30%;
+  }
+}

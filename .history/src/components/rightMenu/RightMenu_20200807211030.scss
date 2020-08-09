@@ -1,0 +1,39 @@
+.fourthCol {
+    overflow-y: auto;
+    .logoRow {
+      height: 15%;
+
+      .logo {
+        font-size: 50px;
+        color: rgb(226, 192, 236);
+      }
+    }
+
+    .friendsRow {
+      .friendList {
+        list-style: none;
+
+        .friendListItem {
+          .friendListItemPhoto {
+            height: 30px;
+            width: 30px;
+            border-radius: 50%;
+            border: solid thin white;
+          }
+
+          .online {
+            position: absolute;
+            left: 60%;
+            height: 12px;
+            width: 12px;
+          }
+
+          .friendName {
+            color: white;
+            font-weight: 300;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
